@@ -6,7 +6,7 @@ from django.contrib import messages
 # Create your views here.
 def index(request):
     context = {
-        "variable1":"Shyam is great",
+        "variable1":"Shyam is great!!!!",
         "variable2":"Rohan is great"
     } 
     return render(request, 'index.html', context)
